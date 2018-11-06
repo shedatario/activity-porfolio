@@ -8,7 +8,7 @@ body {
 	/*background-repeat: no-repeat;*/
 	color: #f2f2f2; /*off white*/
 	height: 100vh; /*height of your screen*/
-	font-family: 'Acme', sans-serif;
+	
 }
 
 h1{
@@ -17,12 +17,14 @@ h1{
 	text-transform: uppercase;
 	margin-bottom: 0;
 	letter-spacing: 3px;
+	font-family: 'Acme', sans-serif;
 }
 
 h2{
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	color: orange;
+	color: #EE8ADB;
+	text-shadow: 2px 2px 2px #000;
 }
 
 #me{
@@ -33,6 +35,7 @@ h2{
 	border-color: white;
 	margin-top: 50px;
 	border-style: solid;
+	
 }
 
 .bio {
@@ -40,6 +43,7 @@ h2{
 	font-size: 18px;
 	line-height: 1.5;
 	background-color: rgba(51, 51, 51, 0.8);
+	font-family: 'Belleza', sans-serif;
 	/*background-color: #333;
 	opacity: 0.5;*/
 }
